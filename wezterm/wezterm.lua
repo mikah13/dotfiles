@@ -1,5 +1,6 @@
 local wezterm = require 'wezterm'
 local colors = require 'colors'
+local fonts = require 'fonts'
 local config = {}
 
 
@@ -10,6 +11,10 @@ end
 
 if colors.apply then
   colors.apply(config)
+end
+
+if fonts.apply then
+  fonts.apply(config)
 end
 
 
