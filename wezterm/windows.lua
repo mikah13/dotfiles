@@ -1,5 +1,4 @@
 local C = {}
-
 function C.apply(config)
     config.window_background_opacity = 0.9
     config.window_decorations = "RESIZE"
@@ -13,6 +12,13 @@ function C.apply(config)
     config.use_fancy_tab_bar = false
     config.status_update_interval = 1000
     config.tab_bar_at_bottom = false
+    config.window_background_image = '/Users/mike/.config/wezterm/assets/bg.jpg'
+
+    config.window_background_image_hsb = {
+    brightness = 0.2,
+    hue = 1.0,
+    saturation = 1.0,
+}
 end
 
 return C
