@@ -18,7 +18,7 @@ function C.apply(config)
     config.window_background_image = '/Users/mike/.config/wezterm/assets/bg.jpg'
 
     config.window_background_image_hsb = {
-    brightness = 0.1,
+    brightness = 0.08,
     hue = 1.0,
     saturation = 1.0,
 }
