@@ -1,3 +1,4 @@
+local wezterm = require 'wezterm'
 local C = {}
 function C.apply(config)
     config.window_background_opacity = 0.97
@@ -20,7 +21,8 @@ function C.apply(config)
     config.window_background_image_hsb = {
     brightness = 0.08,
     hue = 1.0,
-    saturation = 1.0,
+        saturation = 1.0,
+ 
 }
 end
 
